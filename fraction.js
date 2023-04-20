@@ -1,3 +1,5 @@
+#subtraction
+
 class Fraction {
   constructor(numerator, denominator) {
     this.numerator = numerator;
@@ -5,7 +7,7 @@ class Fraction {
   }
  subtract(fraction) {                                                                                                                                                                                                                                                                     
     let newNumerator = (this.numerator * fraction.denominator) - (fraction.numerator * this.denominator);
-    let newDenominator = this.denominator * fraction.denominator;
+    let newDenominator = this.denominator * fraction.denominator;                                        
     return new Fraction(newNumerator, newDenominator);
   }
 }
