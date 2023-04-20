@@ -1,3 +1,6 @@
+
+//to add two numbers
+
  //divide two fractions using classes
 
 const prompt = require('prompt-sync')();
@@ -8,4 +11,5 @@ class Fractions{
     this.num2 = n2*d1;
   }
 }
+
 
