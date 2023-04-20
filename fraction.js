@@ -1,1 +1,1 @@
-
+//to multiply two number
